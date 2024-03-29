@@ -12,16 +12,25 @@ export default defineConfig({
 			},
 
 			sidebar: [
+				// {
+				// 	label: 'Guides',
+				// 	items: [
+				// 		// Each item here is one entry in the navigation menu.
+				// 		{ label: 'Example Guide', link: '/guides/example/' },
+				// 	],
+				// },
+
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'Flutter',
+					autogenerate: { directory: 'flutter' }
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Astro',
+					autogenerate: { directory: 'astro' },
+				},
+				{
+					label: 'Setup Terminal',
+					autogenerate: { directory: 'terminal' }
 				},
 			],
 		}),
