@@ -2,7 +2,7 @@
 title: Astro
 description: Astro.
 ---
-El texto proporcionado describe las características y los principios de diseño de Astro, un marco de trabajo web todo en uno. Aquí tienes un resumen de los puntos clave:
+Características y los principios de diseño de Astro, un marco de trabajo web todo en uno. Aquí tienes un resumen de los puntos clave:
 
 ### Características:
 1. **Arquitectura de Islas**: Arquitectura web basada en componentes optimizada para sitios web orientados al contenido.

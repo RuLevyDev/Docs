@@ -2,7 +2,7 @@
 title: Install Flutter
 description: Install Flutter.
 ---
-## Pasos de instalación
+## Pasos de instalación en Mac
 1. Descargar Flutter
 
 Accede al sitio web oficial de Flutter y descarga la última versión estable para [macOS](https://docs.flutter.dev/get-started/install/macos).

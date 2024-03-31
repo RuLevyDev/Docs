@@ -10,6 +10,14 @@ Abre una ventana de terminal y instala Homebrew con el siguiente comando:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ### Agregar Homebrew al PATH
+:::tip[Posiblemente no es  necesario]
+Con el siguiente comando podras comprobar si es necesario.
+```bash
+brew --version
+```
+si la respuesta es `Homebrew 4.2.15`,puedes saltarte este paso.
+:::
+
 Después de instalarlo, agrégalo al PATH (reemplaza "[nombredeusuario]" con tu nombre de usuario real):
 
 ```bash
@@ -97,13 +105,14 @@ Carga estos nuevos plugins ejecutando:
 ```zsh
 source ~/.zshrc
 ```
-
+:::tip
  ## Actualizar la fuente del terminal de VSCode (opcional)
 #### Instalar Meslo Nerd Font
 Abre settings.json y agrega esta línea:
 ```json
 "terminal.integrated.fontFamily": "MesloLGS NF"
 ```
+:::
 ¡Has terminado!
 Con eso, ¡has terminado y deberías tener una experiencia de terminal mucho mejor!
 

@@ -6,8 +6,18 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'RubenLevy Docs',
+			locales: {
+				root: {
+					label: 'Spanish',
+					lang: 'Spanish', // lang is required for root locales
+				},
+				'en': {
+					label: 'English',
+					lang: 'English',
+				},
+			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/RuLevyDev',
 				linkedin: 'https://linkedin.com/in/ruben-orero-levy',
 			},
 
@@ -19,7 +29,10 @@ export default defineConfig({
 				// 		{ label: 'Example Guide', link: '/guides/example/' },
 				// 	],
 				// },
-
+				{
+					label: 'Dart',
+					autogenerate: { directory: 'dart' }
+				},
 				{
 					label: 'Flutter',
 					autogenerate: { directory: 'flutter' }
@@ -31,6 +44,14 @@ export default defineConfig({
 				{
 					label: 'Setup Terminal',
 					autogenerate: { directory: 'terminal' }
+				},
+				{
+					label: 'dotNet',
+					autogenerate: { directory: 'dotNet' }
+				},
+				{
+					label: 'tailwindcss',
+					autogenerate: { directory: 'tailwindcss' }
 				},
 			],
 		}),

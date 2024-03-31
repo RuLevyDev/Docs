@@ -3,9 +3,6 @@ title: What's Flutter
 description: What's Flutter.
 ---
 
-Aquí tienes una versión traducida de una sección similar, pero sobre Flutter, un framework de desarrollo de aplicaciones móviles:
-
----
 
 ### Características:
 
